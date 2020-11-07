@@ -1,5 +1,5 @@
 <?php
-    $db = new SQLite3('agenda.db');
+    $db = new SQLite3('../agenda.db');
 
     $resultado = $db->query('SELECT * from personas;');
 

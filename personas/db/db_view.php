@@ -2,7 +2,7 @@
 
     $id_persona = $_GET["id_persona"];
 
-    $db = new SQLite3("agenda.db");
+    $db = new SQLite3("../agenda.db");
 
     $resultado = $db->query("SELECT * from personas where id_persona='$id_persona';");
 
