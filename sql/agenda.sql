@@ -1,7 +1,8 @@
 CREATE TABLE personas(
-    nombre varchar(100),
-    primer_apellido varchar(100)
+    id_persona integer PRIMARY KEY AUTOINCREMENT,
+    nombre varchar(100) NOT NULL,
+    primer_apellido varchar(100) NOT NULL
 );
 
-INSERT INTO personas values("Dejah", "Thoris");
-INSERT INTO personas values("John", "Carter");
+INSERT INTO personas(nombre, primer_apellido) values("Dejah", "Thoris");
+INSERT INTO personas(nombre, primer_apellido) values("John", "Carter");
