@@ -12,12 +12,11 @@
   </head>
   <body>
     <div class="container-fluid">
-    <h1>Update</h1>
+    <h1>Delete</h1>
     <a href="list.php">Lista de personas</a>
 
-    <form action='db/db_update.php' method='GET'>
+    <form>
         <?php include 'db/db_view.php';?>
-        <button type='submit' class='btn btn-primary'>Update</button>
     </form>
 
     </div>

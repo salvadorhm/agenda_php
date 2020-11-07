@@ -24,7 +24,7 @@
             <label for="primer_apellido">Primer apellido</label>
             <input type="text" class="form-control" id="primer_apellido" name="primer_apellido" aria-describedby="primer_apellido" placeholder="Ingresa el primer apellido">
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Insert</button>
     </form>
 
     </div>
