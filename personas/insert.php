@@ -15,7 +15,7 @@
     <h1>Insert</h1>
     <a href="list.php">Lista de personas</a>
 
-    <form action="db/insert.php" method="GET">
+    <form action="db/db_insert.php" method="GET">
         <div class="form-group">
             <label for="nombre">Nombre</label>
             <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="nombre" placeholder="Ingresa el nombre">

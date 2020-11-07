@@ -15,7 +15,7 @@
     <h1>Update</h1>
     <a href="list.php">Lista de personas</a>
 
-    <?php include 'db/view.php';?>
+    <?php include 'db/db_view.php';?>
 
     </div>
   </body>

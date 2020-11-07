@@ -16,7 +16,7 @@
     <a href="../index.php">Regresar</a>
     <a href="insert.php">Insert</a>
 
-    <?php include 'db/list.php';?>
+    <?php include 'db/db_list.php';?>
     
     </div>
   </body>

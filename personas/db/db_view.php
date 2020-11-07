@@ -12,7 +12,7 @@
         $primer_apellido = $row["primer_apellido"];
     }
 
-    $form ="<form action='db/update.php' method='GET'>
+    $form ="<form action='db/db_update.php' method='GET'>
             <div class='form-group'>
                 <label for='id_persona'>ID</label>
                 <input type='text' readonly class='form-control' id='id_persona' name='id_persona' aria-describedby='Id persona' value='$id_persona'>
