@@ -5,5 +5,5 @@
 
     $db->exec("DELETE FROM personas where id_persona='$id_persona';");
 
-    header("Location: ../list.php");
+    header("Location: ../index.php");
 ?>
