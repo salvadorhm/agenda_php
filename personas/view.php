@@ -14,7 +14,7 @@
 
 <body>
     <div class="container-fluid">
-        <h1>Delete</h1>
+        <h1>View</h1>
         <a href="index.php">Lista de personas</a>
 
         <form>

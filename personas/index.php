@@ -17,6 +17,7 @@
         <h1>Personas</h1>
         <a href="../index.php">Regresar</a>
         <a href="insert.php">Insert</a>
+        
         <?php include 'db/db_list.php'; ?>
     </div>
 </body>
